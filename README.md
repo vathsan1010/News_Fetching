@@ -25,7 +25,7 @@ Directory structure:
 
 ```bash
 # Clone the repository
-git clone https://github.com/AG-Solutions-Bangalore/school-management-crm
+git clone https://github.com/vathsan1010/News_Fetching.git
 
 
 
