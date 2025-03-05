@@ -1,5 +1,5 @@
 Directory structure:
-└── vathsan1010-news_fetching.git/
+└── vathsan1010-news_fetching/
     ├── README.md
     ├── eslint.config.js
     ├── index.html
