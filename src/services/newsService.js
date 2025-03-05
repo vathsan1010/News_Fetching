@@ -1,7 +1,7 @@
 
 import axios from "axios";
 
-const Api_Key = import.meta.env.VITE_NEWS_API_KEY;
+const Api_Key = "949595b8a0de456a8b6ad9ccb313e46e";
 
 const Base_URL="https://newsapi.org/v2/top-headlines";
 const EVERYTHING_URL = "https://newsapi.org/v2/everything";
@@ -14,7 +14,7 @@ export async function fetchNewsByCategory(category = "general"){
                 category,
                 country:"us",
                 apiKey:Api_Key
-            },headers: { "Upgrade-Insecure-Requests": "1" },
+            }
         })
         return response.data.articles
     }
