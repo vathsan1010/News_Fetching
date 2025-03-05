@@ -1,3 +1,6 @@
+================================================
+File: README.md
+================================================
 Directory structure:
 └── vathsan1010-news_fetching/
     ├── README.md
@@ -15,10 +18,4 @@ Directory structure:
         │   └── Home.jsx
         └── services/
             └── newsService.js
-
-
-
-
-
-
 
