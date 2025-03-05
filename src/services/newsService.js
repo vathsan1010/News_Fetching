@@ -14,7 +14,11 @@ export async function fetchNewsByCategory(category = "general"){
                 category,
                 country:"us",
                 apiKey:Api_Key
-            }
+            },
+            headers: {
+                "X-Requested-With": "XMLHttpRequest",  
+                "Content-Type": "application/json",
+            },
         })
         return response.data.articles
     }
@@ -30,7 +34,11 @@ export async function fetchNewsBySearch(query)
             params:{
                 q:query,
                 apiKey:Api_Key
-            }
+            },
+            headers: {
+                "X-Requested-With": "XMLHttpRequest", 
+                "Content-Type": "application/json",
+            },
         })
         return response.data.articles
     }
