@@ -4,9 +4,6 @@
 
 > A modern and fast news aggregator built with React, Vite, and Axios to fetch and display the latest news dynamically.
 
-## 🌎 Live Demo
-🔗 [View Live Project](https://vathsan1010.github.io/News_Fetching/)
-
 ## 🚀 Features
 
 - 📡 Fetches real-time news using *Axios*
@@ -71,9 +68,6 @@ npm run deploy
 - *ESLint*
 - *GitHub Pages*
 
-## 📜 License
-
-This project is licensed under the *MIT License*.
 
 ## 💡 Contributing
 
@@ -84,4 +78,4 @@ Contributions are welcome! Feel free to fork this repository, create a feature b
 For any queries, reach out at [GitHub](https://github.com/vathsan1010/News_Fetching).
 
 ---
-💙 Made with passion by [@vathsan1010](https://github.com/vathsan1010) 🚀
+💙 Made with passion by Shree Vathsan
