@@ -26,9 +26,6 @@ Directory structure:
 ```bash
 # Clone the repository
 git clone https://github.com/vathsan1010/News_Fetching.git
-
-
-
 # Install dependencies
 npm install
 
