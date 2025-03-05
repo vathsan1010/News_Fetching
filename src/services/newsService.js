@@ -13,7 +13,7 @@ export async function fetchNewsByCategory(category = "general"){
                 category,
                 country:"us",
                 apiKey:Api_Key
-            }
+            },headers: { "Upgrade-Insecure-Requests": "1" },
         })
         return response.data.articles
     }
