@@ -1,7 +1,7 @@
 const API_KEY = "949595b8a0de456a8b6ad9ccb313e46e";
 
-const BASE_URL = "http://newsapi.org/v2/top-headlines";
-const EVERYTHING_URL = "http://newsapi.org/v2/everything";
+const BASE_URL = "https://newsapi.org/v2/top-headlines";
+const EVERYTHING_URL = "https://newsapi.org/v2/everything";
 
 export async function fetchNewsByCategory(category = "general") {
     try {
