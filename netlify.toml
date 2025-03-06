@@ -1,4 +1,5 @@
-[[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Connection = "keep-alive"
+    Upgrade-Insecure-Requests = "1"
